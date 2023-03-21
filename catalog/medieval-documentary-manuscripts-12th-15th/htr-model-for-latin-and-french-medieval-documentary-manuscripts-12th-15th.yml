@@ -1,0 +1,74 @@
+schema: https://htr-united.github.io/schema/2022-04-15/schema.json
+title: HTR model for Latin and French Medieval Documentary Manuscripts (12th-15th).
+url: https://doi.org/10.5281/zenodo.7547438
+authors:
+  - name: Sergio
+    surname: Torres Aguilar
+    orcid: 0000-0002-1801-3147
+    roles:
+      - transcriber
+      - aligner
+      - quality-control
+  - name: Vincent
+    surname: Jolivet
+    orcid: 0000-0003-0600-0362
+    roles:
+      - aligner
+      - quality-control
+      - support
+institutions: []
+description: >-
+  HTR model for documentary Latin and French manuscripts trained on charters and
+  registers datasets from the Late-medieval period (12th-15th).
+language:
+  - lat
+  - fro
+production-software: eScriptorium + Kraken
+script:
+  - iso: Latn
+script-type: only-manuscript
+time:
+  notBefore: '1130'
+  notAfter: '1515'
+hands:
+  count: more-than-10
+  precision: estimated
+license:
+  - name: CC-BY 4.0
+    url: https://creativecommons.org/licenses/by/4.0/
+format: Page-XML
+sources:
+  - reference: >-
+      Sergio Torres Aguilar, Vincent Jolivet. Handwritten Text Recognition for
+      Documentary Medieval Manuscripts. 2022
+    link: https://hal.science/hal-03892163
+  - reference: >-
+      Stutzmann, Dominique, Torres Aguilar, Sergio, & Chaffenet, Paul. (2021).
+      HOME-Alcar: Aligned and Annotated Cartularies [Data set]. Zenodo.
+      https://doi.org/10.5281/zenodo.5600884
+    link: https://zenodo.org/record/5600884
+  - reference: >-
+      Claustre, Julie, Smith, Darwin, Torres Aguilar, Sergio, Bretthauer,
+      Isabelle, Brochard, Pierre, Canteaut, Olivier, Cottereau, Emilie, Delivré,
+      Fabrice, Denglos, Mathilde, Jolivet, Vincent, Julerot, Véronique, Kouamé,
+      Thierry, Lusset, Elisabeth, Massoni, Anne, Nadiras, Sebastien, Perreaux,
+      Nicolas, Regazzi, Hugo, & Treglia, Mathilde. (2023). The e-NDP project :
+      collaborative digital edition of the Chapter registers of Notre-Dame of
+      Paris (1326-1504). Ground-truth for handwriting text recognition (HTR) on
+      late medieval manuscripts. (1.0, p. https://zenodo.org/record/7575693)
+      [Data set]. Zenodo. https://doi.org/10.5281/zenodo.7575693
+    link: https://zenodo.org/record/7575693
+  - reference: >-
+      Stutzmann, Dominique, Hamel, Sébastien, Kernier, Iseut de, Mühlberger,
+      Günter, & Hackl, Günter. (2021). HIMANIS Guérin [Data set]. Zenodo.
+      https://doi.org/10.5281/zenodo.5535306
+    link: https://zenodo.org/record/5535306
+volume:
+  - metric: lines
+    count: 141512
+  - metric: files
+    count: 2144
+  - metric: characters
+    count: 12609224
+citation-file-link: https://zenodo.org/record/7547438/export/hx#.ZBnRf6fMKEA
+transcription-guidelines: "(1) As in most diplomatic editions the abbreviations have been resolved, both those by suspension (facimꝰ ---> facimus) and by contraction (dñi --> domini). Likewise, those using conventional signs (⁊ --> et ; ꝓ --> pro) have been resolved. \n(2) The named entities (names of persons, places and institutions) have been capitalized. The beginning of a block of text as well as the original capitals used by the writer are also capitalized.\n(3) The consonantal \" i \" and \" u \" characters have been transcribed as \" j \" and \" v \" in both French and Latin.\n(4) The punctuation marks used in the manuscript are not always followed in the transcription as this have been standardized in editions with modern punctuation.\n(5) The marginal annotations and entries (most of them introduced after the manuscript composition) have not been systematically transcribed."
